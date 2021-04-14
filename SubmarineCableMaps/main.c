@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "Trabalho_INF006.h"
-
+//Interface com o UsiÃ¡rio.
 int main(){
     inf_cab dados_no_main;
     Lista* li = cria_lista();
@@ -73,7 +73,7 @@ int main(){
                     
                     break;
                 }else{
-                    qtd_cidades_por_regiao = tamanho_lista(li)/qtd_regioes;//O valor da constante CIDADES do código "GeradorMassaDados.c" (500) dividido por 25 (qtd de regioes) resultará em uma divisão exata.
+                    qtd_cidades_por_regiao = tamanho_lista(li)/qtd_regioes;//O valor da constante CIDADES do cï¿½digo "GeradorMassaDados.c" (500) dividido por 25 (qtd de regioes) resultarï¿½ em uma divisï¿½o exata.
                     int regioes_Geradas;
                     regioes_Geradas = gerar_regioes(li, qtd_cidades_por_regiao, qtd_regioes);
                     if(regioes_Geradas == 1){
@@ -147,7 +147,7 @@ int main(){
                     
                 }
                 else{
-                    printf("\nNão foi possivel inserir o novo cabo/cidade!\n");
+                    printf("\nNï¿½o foi possivel inserir o novo cabo/cidade!\n");
                     
                 }
             break;
