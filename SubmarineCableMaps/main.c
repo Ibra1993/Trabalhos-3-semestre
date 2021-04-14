@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "Trabalho_INF006.h"
-//Interface com o Usiário.
+//Interface com o Usuário.
 int main(){
     inf_cab dados_no_main;
     Lista* li = cria_lista();
